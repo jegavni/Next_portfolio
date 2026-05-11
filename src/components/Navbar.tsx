@@ -74,7 +74,7 @@ export default function Navbar() {
 
           {/* Resume Button */}
           <a
-            href="/revised_resume.pdf"
+            href="/revisedResume.pdf"
             target="_blank"
             className="
               px-5
