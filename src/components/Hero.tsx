@@ -2,10 +2,13 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import projects from "./Projects";
 
 export default function Hero() {
   const techStack = [
     "React.js",
+    "react native",
+    "TypeScript",
     "Next.js",
     "Node.js",
     "Express.js",
@@ -13,6 +16,18 @@ export default function Hero() {
     "Tailwind CSS",
     "Redux",
     "JWT Auth",
+    "REST APIs",
+    "Git & GitHub",
+    "Docker",
+    "kubernetes",
+    "AWS",
+    "CI/CD",
+    "Agile Methodologies",
+    "Unit Testing",
+    "Performance Optimization",
+    "Web Security",
+    "Responsive Design",
+    "Cross-Browser Compatibility",
   ];
 
   return (
@@ -96,24 +111,28 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="flex flex-wrap gap-4">
-              <a
-                href="#projects"
-                className="
-                  bg-cyan-500
-                  hover:bg-cyan-400
-                  text-black
-                  font-semibold
-                  px-6 py-3
-                  rounded-xl
-                  transition-all duration-300
-                  shadow-lg shadow-cyan-500/20
-                "
-              >
-                View Projects
-              </a>
+              <button
+  onClick={() => {
+    document
+      .getElementById("Projects")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="
+    bg-cyan-500
+    hover:bg-cyan-400
+    text-black
+    font-semibold
+    px-6 py-3
+    rounded-xl
+    transition-all duration-300
+    shadow-lg shadow-cyan-500/20
+  "
+>
+  View Projects
+</button>
 
               <a
-                href="/revised resume.docx"
+                href="/revisedResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="

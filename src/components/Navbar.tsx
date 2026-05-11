@@ -97,7 +97,8 @@ export default function Navbar() {
 
           {/* Let's Talk Button */}
           <a
-            href="#contact"
+            href="https://wa.me/9788733875"
+            target = "_blank"
             className="
               relative
               overflow-hidden

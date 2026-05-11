@@ -4,39 +4,49 @@ import { motion } from "framer-motion";
 import { GitBranch , ExternalLink } from "lucide-react";
 
 const projects = [
-  {
-    title: "HRMS Platform",
-    desc: "Live HRMS platform for managing employees, attendance, payroll and HR operations with role-based access.",
-    tech: ["React", "Node.js", "MongoDB", "JWT", "Express"],
-    live: "https://portfolio-ydff.onrender.com",
-    github: "https://github.com/jegavni",
-  },
+ 
   {
     title: "E-Commerce Platform",
     desc: "Scalable shopping platform with authentication, cart, product management and responsive UI.",
     tech: ["MERN Stack", "Redux", "MongoDB"],
     live: "https://ecommerce-t7cc.onrender.com",
-    github: "https://github.com/jegavni",
+    github: "https://github.com/jegavni/ecommerce",
+  },
+   {
+    title: "HRMS Platform",
+    desc: "Live HRMS platform for managing employees, attendance, payroll and HR operations with role-based access.",
+    tech: ["React", "Node.js", "MongoDB", "JWT", "Express"],
+    live: "https://stackup-hrms-students.vercel.app/login",
+    github: "https://github.com/jegavni/hrms",
+  },
+ 
+  
+  {
+    title: "fintech based Website",
+    desc: "A fintech website that provides financial services and solutions with a user-friendly interface.",
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    live: "https://fintechwalletbass.onrender.com/",
+    github: "https://github.com/jegavni/fintechWallet",
   },
   {
-    title: "Employee Management",
-    desc: "Full-stack employee management system with CRUD operations and secure authentication.",
-    tech: ["React", "Node.js", "MongoDB", "Bootstrap"],
-    live: "https://portfolio-ydff.onrender.com",
-    github: "https://github.com/jegavni",
+    title: "trust management Website",
+    desc: "A trust management website that provides services and solutions with a user-friendly interface.",
+    tech: ["React","microservices", "Tailwind CSS", "express"],
+    live: "https://ktm-vg51.onrender.com",
+    github: "https://github.com/jegavni/kTM",
   },
   {
-    title: "Realtime Chat App",
+    title: "SynDesk Chat App",
     desc: "Realtime messaging application using Socket.io with JWT authentication and protected routes.",
     tech: ["React", "Express", "Socket.io"],
-    live: "https://portfolio-ydff.onrender.com",
-    github: "https://github.com/jegavni",
+    live: "https://syndesk-client.onrender.com",
+    github: "https://github.com/jegavni/SynDesk",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="relative bg-[#020617] min-h-screen overflow-hidden py-20 px-6">
+    <section id="Projects" className="relative bg-[#020617] min-h-screen overflow-hidden py-20 px-6">
       
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">

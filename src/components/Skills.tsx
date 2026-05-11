@@ -1,12 +1,27 @@
 const skills = [
   "React.js",
+  "react native",
+  "TypeScript",
+
   "Next.js",
   "Node.js",
+  "Express.js",
   "MongoDB",
-  "Docker",
-  "Kubernetes",
-  "AWS",
   "Tailwind CSS",
+  "Redux",
+  "JWT Auth",
+  "REST APIs",
+  "Git & GitHub",
+  "CI/CD",
+  "Agile Methodologies",
+  "Unit Testing",
+  "Performance Optimization",
+  "Web Security",
+  "Responsive Design",
+  "Cross-Browser Compatibility",
+  "Docker",
+  "kubernetes",
+  "AWS",
 ];
 
 export default function Skills() {
